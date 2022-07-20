@@ -1,0 +1,8 @@
+{
+    "name": "fernando/tarefas",
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "classes/"
+        }
+    }
+}

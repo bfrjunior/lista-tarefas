@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.formulario, .lista{
+    width: 50%;
+    padding: 20px;
+    background-color: rgba(255,255,
+    255,0.5);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.formulario input[type="text"]{
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+.formulario button{
+    width: 150px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    background-color: #87cceb;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+.lista ul, .lista il{
+    list-style: none;
+}
+.lista li{
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+.lista li a:nth-child(1){
+    color:#0e62a1;
+}
+.lista li a:nth-child(2){
+    color:#b41d12;
+}
+.lista li a{
+    text-decoration: none;
+    color: black;
+}
+.lista li.concluida{
+    background-color: #99ff99;
+}
